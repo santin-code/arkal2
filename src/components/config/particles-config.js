@@ -1,7 +1,7 @@
 const particlesConfig = {
   particles: {
     number: {
-      value: 90,
+      value: 55,
       density: {
         enable: true,
         value_area: 800,
@@ -11,13 +11,13 @@ const particlesConfig = {
       value: "#3cff00",
     },
     shape: {
-      type: "circle",
+      type: "triangle",
       stroke: {
         width: 0,
         color: "#000000",
       },
       polygon: {
-        nb_sides: 5,
+        nb_sides: 3,
       },
       image: {
         src: "img/github.svg",
@@ -30,13 +30,13 @@ const particlesConfig = {
       random: true,
       anim: {
         enable: false,
-        speed: 1,
+        speed: 3,
         opacity_min: 1,
         sync: false,
       },
     },
     size: {
-      value: 3,
+      value: 4,
       random: true,
       anim: {
         enable: false,
@@ -47,7 +47,7 @@ const particlesConfig = {
     },
     line_linked: {
       enable: true,
-      distance: 150,
+      distance: 180,
       color: "#3cff00",
       opacity: 0.5,
       width: 1,
@@ -56,7 +56,7 @@ const particlesConfig = {
       enable: true,
       speed: 3,
       direction: "none",
-      random: false,
+      random: true,
       straight: false,
       out_mode: "out",
       bounce: false,

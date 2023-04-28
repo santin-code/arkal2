@@ -1,7 +1,7 @@
 body {
   background-color: black;
 }
-@font-face {
+/* @font-face {
   font-family: ultraRegular;
   src: url(./Ultra-Regular.ttf);
 }
@@ -23,16 +23,20 @@ body {
 @font-face {
   font-family:Fruktur-Italic ;
   src: url(./Fruktur-Italic.ttf);
-}
+} */
 
 @font-face {
   font-family:RubikMaze-Regular ;
-  src: url(./RubikMaze-Regular.ttf);
+  src: url(./RubikMaze-Regular.woff2) format("woff2") ;
+  unicode-range: U+0000-00ff;
 }
-@font-face {
+
+
+
+/* @font-face {
   font-family:FrederickatheGreat-Regular ;
   src: url(./FrederickatheGreat-Regular.ttf);
-}
+} */
 
 .body {
   width: 100vw;
@@ -56,10 +60,26 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  font-size: 4rem;
+  align-items: center;
+  font-size: 5rem;
   font-family: RubikMaze-Regular;
-  color: rgb(255, 255, 255);
-  font-weight: 500;
+  margin-top: 1rem;
+  color:#abf8f8;
+  
+}
+
+@keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}}
+
+  .faReact{
+    -webkit-animation: 3s rotate linear infinite;
+    animation: 3s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    font-size: 3rem;
+    color: rgb(38, 245, 159);
 }
 
 li span:nth-child(2) {
@@ -76,4 +96,15 @@ li span:nth-child(5) {
 }
 li span:nth-child(6) {
   color: rgba(241, 161, 217, 0.979);
+}
+
+@media screen and (max-width: 600px) {
+  .logo{
+    font-size: 3.5rem;
+    color: #abf8f8;
+    margin-top: 1.5rem;
+  }
+  .faReact{
+    font-size: 2rem;
+}
 }

@@ -1,15 +1,13 @@
 import './App.css';
 import ParticlesBackground from './components/ParticlesBackground';
 import {TfiPrinter} from "react-icons/tfi"
-import {GiMarsCuriosity} from "react-icons/gi"
-import {FcMindMap} from "react-icons/fc"
-import {FcCommandLine} from "react-icons/fc"
+import {FaReact} from "react-icons/fa"
 
 function App() {
   return (
     <div className="App">
       <ParticlesBackground />
-      <div className="logo">ARKAL <FcCommandLine className="curiosity" />  TECH</div>
+      <div className="logo">ARKAL <FaReact className="faReact" />  TECH</div>
       NUESTROS SERVICIOS
       <ul>
         <li>
