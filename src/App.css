@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+body {
+  background-color: black;
+}
+@font-face {
+  font-family: ultraRegular;
+  src: url(./Ultra-Regular.ttf);
+}
+@font-face {
+  font-family: permanenteMarker;
+  src: url(./PermanentMarker-Regular.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: RubikVinyl-Regular;
+  src: url(./RubikVinyl-Regular.ttf);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: Oi-Regular;
+  src: url(./Oi-Regular.ttf);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@font-face {
+  font-family:Fruktur-Italic ;
+  src: url(./Fruktur-Italic.ttf);
+}
+
+@font-face {
+  font-family:RubikMaze-Regular ;
+  src: url(./RubikMaze-Regular.ttf);
+}
+@font-face {
+  font-family:FrederickatheGreat-Regular ;
+  src: url(./FrederickatheGreat-Regular.ttf);
+}
+
+.body {
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.app {
+  color: rgb(255, 255, 255);
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  flex-direction: column;
+  font-family: FrederickatheGreat-Regular;
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  font-family: RubikMaze-Regular;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+li span:nth-child(2) {
+  color: red;
+}
+li span:nth-child(3) {
+  color: rgb(202, 91, 159);
+}
+li span:nth-child(4) {
+  color: rgb(0, 174, 255);
+}
+li span:nth-child(5) {
+  color: rgb(241, 243, 148);
+}
+li span:nth-child(6) {
+  color: rgba(241, 161, 217, 0.979);
 }

@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import ParticlesBackground from './components/ParticlesBackground';
+import {TfiPrinter} from "react-icons/tfi"
+import {GiMarsCuriosity} from "react-icons/gi"
+import {FcMindMap} from "react-icons/fc"
+import {FcCommandLine} from "react-icons/fc"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ParticlesBackground />
+      <div className="logo">ARKAL <FcCommandLine className="curiosity" />  TECH</div>
+      NUESTROS SERVICIOS
+      <ul>
+        <li>
+          <TfiPrinter />
+          IMPRESIONES A <span></span>
+          <span>C</span>
+          <span>O</span>
+          <span>L</span>
+          <span>O</span>
+          <span>R</span><span> </span>
+          
+           Y BLANCO Y NEGRO
+        </li>
+      </ul>
     </div>
   );
 }
