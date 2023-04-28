@@ -1,22 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.1071929e.css",
-    "main.js": "/static/js/main.78c9ac4a.js",
-    "static/js/787.4e9d60c6.chunk.js": "/static/js/787.4e9d60c6.chunk.js",
-    "static/media/FrederickatheGreat-Regular.ttf": "/static/media/FrederickatheGreat-Regular.69cef5dc99024da59d1e.ttf",
-    "static/media/RubikMaze-Regular.ttf": "/static/media/RubikMaze-Regular.273830be2225851792ad.ttf",
-    "static/media/RubikVinyl-Regular.ttf": "/static/media/RubikVinyl-Regular.22b1fe5789e386a0db07.ttf",
-    "static/media/Oi-Regular.ttf": "/static/media/Oi-Regular.7750edfb0d5d957f420e.ttf",
-    "static/media/Fruktur-Italic.ttf": "/static/media/Fruktur-Italic.312f24b724d9f17f4361.ttf",
-    "static/media/PermanentMarker-Regular.ttf": "/static/media/PermanentMarker-Regular.109a10dca0508e41aa12.ttf",
-    "static/media/Ultra-Regular.ttf": "/static/media/Ultra-Regular.05ceaf656a698849a814.ttf",
+    "main.css": "/static/css/main.1f098521.css",
+    "main.js": "/static/js/main.88f6e267.js",
+    "static/media/RubikMaze-Regular.woff2": "/static/media/RubikMaze-Regular.4668078fe362c0c596ac.woff2",
     "index.html": "/index.html",
-    "main.1071929e.css.map": "/static/css/main.1071929e.css.map",
-    "main.78c9ac4a.js.map": "/static/js/main.78c9ac4a.js.map",
-    "787.4e9d60c6.chunk.js.map": "/static/js/787.4e9d60c6.chunk.js.map"
+    "main.1f098521.css.map": "/static/css/main.1f098521.css.map",
+    "main.88f6e267.js.map": "/static/js/main.88f6e267.js.map"
   },
   "entrypoints": [
-    "static/css/main.1071929e.css",
-    "static/js/main.78c9ac4a.js"
+    "static/css/main.1f098521.css",
+    "static/js/main.88f6e267.js"
   ]
 }
