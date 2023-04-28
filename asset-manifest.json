@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/arkal2/static/css/main.60c337cf.css",
+    "main.js": "/arkal2/static/js/main.e63ceb0f.js",
+    "static/js/787.4e9d60c6.chunk.js": "/arkal2/static/js/787.4e9d60c6.chunk.js",
+    "static/media/FrederickatheGreat-Regular.ttf": "/arkal2/static/media/FrederickatheGreat-Regular.69cef5dc99024da59d1e.ttf",
+    "static/media/RubikMaze-Regular.ttf": "/arkal2/static/media/RubikMaze-Regular.273830be2225851792ad.ttf",
+    "static/media/RubikVinyl-Regular.ttf": "/arkal2/static/media/RubikVinyl-Regular.22b1fe5789e386a0db07.ttf",
+    "static/media/Oi-Regular.ttf": "/arkal2/static/media/Oi-Regular.7750edfb0d5d957f420e.ttf",
+    "static/media/Fruktur-Italic.ttf": "/arkal2/static/media/Fruktur-Italic.312f24b724d9f17f4361.ttf",
+    "static/media/PermanentMarker-Regular.ttf": "/arkal2/static/media/PermanentMarker-Regular.109a10dca0508e41aa12.ttf",
+    "static/media/Ultra-Regular.ttf": "/arkal2/static/media/Ultra-Regular.05ceaf656a698849a814.ttf",
+    "index.html": "/arkal2/index.html",
+    "main.60c337cf.css.map": "/arkal2/static/css/main.60c337cf.css.map",
+    "main.e63ceb0f.js.map": "/arkal2/static/js/main.e63ceb0f.js.map",
+    "787.4e9d60c6.chunk.js.map": "/arkal2/static/js/787.4e9d60c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60c337cf.css",
+    "static/js/main.e63ceb0f.js"
+  ]
+}
