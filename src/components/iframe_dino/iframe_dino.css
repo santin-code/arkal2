@@ -1,0 +1,14 @@
+.dino_container{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left:50px ;
+}
+   .iframe_dino {
+    width: 70%;
+    height: 480px;
+    border: none;
+    opacity: 5000%;
+    border-radius: 20px;
+  } 
