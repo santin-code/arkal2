@@ -1,3 +1,4 @@
+// ESTA ES LA CONFIGURACION QUE SE DESCARGA EN EL JSON DESDE LA PAGINA DE PARTICLES JS 
 const particlesConfig = {
   particles: {
     number: {
@@ -48,7 +49,7 @@ const particlesConfig = {
     line_linked: {
       enable: true,
       distance: 180,
-      color: "#3cff00",
+      color: "rgb(38, 245, 159)",
       opacity: 0.5,
       width: 1,
     },
