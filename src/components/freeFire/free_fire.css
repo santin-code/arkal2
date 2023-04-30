@@ -1,6 +1,15 @@
+.free_fire_title {
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .5rem 0;
+}
+
 .free_fire_container {
   width: 100%;
-  height: 300px;
+  height: 450px;
   margin-inline: auto;
   display: flex;
   flex-wrap: wrap;
@@ -9,17 +18,50 @@
   padding: 2rem 0;
 }
 
-.free_fire {
+.free_fire_gif {
   height: 100%;
-  padding: 0 2rem;
-  opacity: 75%;
-  border-radius: 122px;
+  padding: 0 1rem;
+  border-radius: 122px 122px 0 0 ;
 }
 
+.advertising {
+  height: 100%;
+  display: flex;
+  justify-content: center ;
+  flex-direction: column;
+  padding: 0 1rem;
+  border-top: 1px dashed  rgb(38, 245, 159);
+  border-bottom: 1px dashed  rgb(38, 245, 159);
+}
 
-.diamond {
-  opacity: 50%;
+.icon_diamond {
+  color:  rgb(38, 245, 159);
+  font-size: 3rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.diamond_description {
   margin: 1rem 0;
-  color: #fffefd;
+  color: #ffffff;
   font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  border-bottom : 1px solid rgb(38, 245, 159);
+}
+
+.price_diamond {
+  margin-left: 5px;
+  color: rgb(38, 245, 159);
+  font: 14px arial,Microsoft JhengHei,微軟正黑體,sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.asterisk {
+  color: rgb(255, 255, 255);
+  margin-left: 2px;
 }

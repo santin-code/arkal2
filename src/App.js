@@ -9,6 +9,7 @@ function App() {
       <ParticlesBackground />
       <LogoTitle />
       <FreeFire />
+      {/* <a href="https://www.flaticon.es/iconos-gratis/astronauta" title="astronauta iconos">Astronauta iconos creados por wanicon - Flaticon</a> */}
     </div>
   );
 }
