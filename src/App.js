@@ -1,15 +1,14 @@
 import './App.css';
 import ParticlesBackground from './components/ParticlesBackground';
-import {FaReact} from "react-icons/fa"
-import IframeDino from './components/iframe_dino/IframeDino';
+import FreeFire from './components/freeFire/FreeFire';
+import LogoTitle from './components/logoTitle/LogoTitle';
 
 function App() {
   return (
     <div className="App">
       <ParticlesBackground />
-      <div className="logo">ARKAL <FaReact className="faReact" />  TECH</div>
-      <div className='slogan'>Simplifying your digital life</div>
-      <IframeDino />
+      <LogoTitle />
+      <FreeFire />
     </div>
   );
 }

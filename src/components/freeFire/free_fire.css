@@ -1,0 +1,25 @@
+.free_fire_container {
+  width: 100%;
+  height: 300px;
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.free_fire {
+  height: 100%;
+  padding: 0 2rem;
+  opacity: 75%;
+  border-radius: 122px;
+}
+
+
+.diamond {
+  opacity: 50%;
+  margin: 1rem 0;
+  color: #fffefd;
+  font-weight: bold;
+}
