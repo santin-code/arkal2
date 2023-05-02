@@ -22,35 +22,35 @@ const FreeFire = () => {
             110 Diamantes:{" "}
             <div className="price_diamond">
               {" "}
-              MXN $19 <span className="asterisk"> *</span>{" "}
+              MXN $27 {" "}
             </div>{" "}
           </div>
           <div className="diamond_description">
             341 Diamantes:{" "}
             <div className="price_diamond">
               {" "}
-              MXN $59 <span className="asterisk"> *</span>{" "}
+              MXN $67 {" "}
             </div>{" "}
           </div>
           <div className="diamond_description">
             572 Diamantes:{" "}
             <div className="price_diamond">
               {" "}
-              MXN $99 <span className="asterisk"> *</span>{" "}
+              MXN $107 {" "}
             </div>{" "}
           </div>
           <div className="diamond_description">
             1,166 Diamantes:{" "}
             <div className="price_diamond">
               {" "}
-              MXN $199 <span className="asterisk"> *</span>{" "}
+              MXN $207 {" "}
             </div>{" "}
           </div>
           <div className="diamond_description">
             2,398 Diamantes:{" "}
             <div className="price_diamond">
               {" "}
-              MXN $379 <span className="asterisk"> *</span>{" "}
+              MXN $387 {" "}
             </div>{" "}
           </div>
         </div>
